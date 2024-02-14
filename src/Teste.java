@@ -25,7 +25,7 @@ public class Teste {
 		Campeonato campeonato = new Campeonato(clubes);
 		campeonato.jogarCampeonato();
 		
-		campeonato.setClassificacao();
-		campeonato.setCampeao();
+		campeonato.getClassificacao();
+		campeonato.getCampeao();
     }
 }

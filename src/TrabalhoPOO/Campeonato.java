@@ -67,7 +67,7 @@ public class Campeonato {
         }
     }
 
-    public void setClassificacao() {
+    public void getClassificacao() {
         comparador();
 
         System.out.println("\t\t\t\tCLASSIFICAO");
@@ -81,7 +81,7 @@ public class Campeonato {
         System.out.println("+-----------------------------------------------------------------------+");
     }
 
-    public void setCampeao() {
+    public void getCampeao() {
         System.out.println("Campeao: " + clubes.get(0).getNome());
     }
 }
