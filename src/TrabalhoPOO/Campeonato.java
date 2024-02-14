@@ -70,9 +70,9 @@ public class Campeonato {
     public void getClassificacao() {
         comparador();
 
-        System.out.println("\t\t\t\tCLASSIFICAO");
+        System.out.println("\t\t\t\tCLASSIFICAÇÃO");
         System.out.println("+-----------------------------------------------------------------------+");
-        System.out.println("|\tClube\t\t|\tPontuacao\t|\tSaldo Gols\t|");
+        System.out.println("|\tClube\t\t|\tPontuação\t|\tSaldo Gols\t|");
         System.out.println("+-----------------------------------------------------------------------+");
         for (int i = 0; i < clubes.size(); i++) {
             Clube c = clubes.get(i);
